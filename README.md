@@ -1,5 +1,5 @@
 # CORA Citation Network: Node Classification using GNNs
-
+Video Walkthrough: [https://youtu.be/koDyU0rtJlw](https://youtu.be/koDyU0rtJlw)
 An end-to-end machine learning pipeline that classifies academic papers into 7 distinct categories based on their citation links and text features. This project compares a baseline tabular model (optimized Random Forest) against a deep Graph Neural Network (GNN) built with PyTorch Geometric, served via a FastAPI backend and an interactive Streamlit frontend.
 
 ## 🚀 Features
