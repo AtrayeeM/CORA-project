@@ -26,7 +26,7 @@ An end-to-end machine learning pipeline that classifies academic papers into 7 d
 ## 💻 Local Setup & Installation
 
 **1. Clone the repository**
-```bash
+
 git clone [https://github.com/AtrayeeM/CORA-project.git](https://github.com/AtrayeeM/CORA-project.git)
 cd CORA-project
 
