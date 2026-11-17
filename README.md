@@ -26,10 +26,10 @@ An end-to-end machine learning pipeline that classifies academic papers into 7 d
 ## 💻 Local Setup & Installation
 
 **1. Clone the repository**
-///bash
+\\\bash
 git clone [https://github.com/AtrayeeM/CORA-project.git](https://github.com/AtrayeeM/CORA-project.git)
 cd CORA-project
-///
+\\\
 **2. Create a virtual environment and install dependencies**
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
