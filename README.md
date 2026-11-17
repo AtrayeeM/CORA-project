@@ -29,3 +29,19 @@ An end-to-end machine learning pipeline that classifies academic papers into 7 d
 ```bash
 git clone [https://github.com/AtrayeeM/CORA-project.git](https://github.com/AtrayeeM/CORA-project.git)
 cd CORA-project
+
+**2. Create a virtual environment and install dependencies**
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+
+**Running the Application**
+This application requires two terminal windows to run the decoupled frontend and backend simultaneously.
+
+**Terminal 1: Start the FastAPI Backend**
+# Ensure your virtual environment is activated
+uvicorn main:app --reload --port 8000
+
+**Terminal 2: Start the Streamlit Frontend**
+# Open a new terminal, navigate to the project folder, and activate the venv
+streamlit run app.py
